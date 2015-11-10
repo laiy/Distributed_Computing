@@ -29,8 +29,6 @@ class LoginHandler(BaseHandler):
         coll = self.application.db.users
         user = coll.find_one({"username": self.get_argument("username")})
         if user:
-            print(user["password"])
-            print(md5(self.get_argument("password")))
             if user["password"] == md5(self.get_argument("password")):
                 self.set_secure_cookie("username", self.get_argument("username"))
                 self.redirect("/")
