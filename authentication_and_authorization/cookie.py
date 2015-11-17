@@ -78,5 +78,6 @@ if __name__ == "__main__":
 
     http_server = tornado.httpserver.HTTPServer(Application())
     http_server.listen(options.port)
-    http_server.listen(8010)
+    http_server2 = tornado.httpserver.HTTPServer(Application())
+    http_server2.listen(8010)
     tornado.ioloop.IOLoop.instance().start()
