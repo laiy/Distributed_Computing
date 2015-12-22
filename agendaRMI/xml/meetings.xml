@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<meetingList>
+ <meeting constitutor="Tim" attendee="LS" startTime="2009-04-18,08:00:00" endTime="2009-04-18,11:30:00" label="game" />
+ <meeting constitutor="LX" attendee="Tim" startTime="2009-04-13,10:00:00" endTime="2009-04-13,11:00:00" label="java" />
+ <meeting constitutor="XQ" attendee="JJ" startTime="2009-04-20,09:30:00" endTime="2009-04-26,11:30:00" label="shopping" />
+ <meeting constitutor="JJ" attendee="Tim" startTime="2009-04-16,08:30:00" endTime="2009-04-16,18:00:00" label="homework" />
+ <meeting constitutor="LS" attendee="LX" startTime="2009-04-20,15:00:00" endTime="2009-04-20,17:30:00" label="network" />
+ <meeting constitutor="Tim" attendee="XQ" startTime="2009-04-27,19:30:00" endTime="2009-04-27,21:30:00" label="projectmanaging" />
+</meetingList>
+
